@@ -15,6 +15,7 @@ const paths = {
     srcShared: resolveApp('src/shared'),
     types: resolveApp('node_modules/@types'),
     publicPath: '/static/',
+    sassResources: resolveApp('src/shared/css/resources.scss'),
 };
 
 paths.resolveModules = [
